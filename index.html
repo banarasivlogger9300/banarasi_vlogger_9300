@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <title>Videos – Banarasi Vlogger 9300</title>
   <meta name="description" content="Banarasi Vlogger 9300 – Banaras ki travel videos, vlog playlist, YouTube shorts aur daily life content.">
 
@@ -57,7 +57,57 @@
       border: none;
     }
 
-    /* Navigation Link */
+    /* Buttons Area */
+    .action-buttons {
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 5px;
+      padding: 12px 20px;
+      background: #ff0000;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .share-btn {
+      background: #1877f2;
+    }
+
+    .like-btn {
+      background: #00a80c;
+    }
+
+    /* Contact Area */
+    .contact {
+      background: white;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .contact a {
+      display: block;
+      margin: 10px;
+      padding: 12px;
+      background: #ff0000;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    .contact a.instagram { background: #d63384; }
+    .contact a.facebook { background: #1877f2; }
+    .contact a.whatsapp { background: #25d366; }
+    .contact a.youtube { background: #ff0000; }
+
     .back-home {
       margin-top: 20px;
       text-align: center;
@@ -66,7 +116,7 @@
     .back-home a {
       text-decoration: none;
       color: #fff;
-      background: #ff0000;
+      background: #444;
       padding: 10px 20px;
       border-radius: 5px;
       font-weight: bold;
@@ -93,6 +143,20 @@
   </div>
 </section>
 
+<!-- ACTION BUTTONS -->
+<div class="section action-buttons">
+  <a href="#" class="btn like-btn">👍 Like</a>
+  <a href="whatsapp://send?text=Check%20out%20this%20amazing%20channel%20Banarasi%20Vlogger%209300!" class="btn share-btn">📤 Share</a>
+
+  <!-- OFFICIAL YOUTUBE SUBSCRIBE BUTTON -->
+  <div style="margin-top: 10px;">
+    <iframe 
+      src="https://www.youtube.com/subscribe_embed?usegapi=1&channelid=UCg8hePnvdUCpKiM9UJIiK9g" 
+      style="height: 120px; width: 300px; border: 0;">
+    </iframe>
+  </div>
+</div>
+
 <!-- SHORTS SECTION -->
 <section class="section">
   <h2>Latest YouTube Shorts</h2>
@@ -117,9 +181,19 @@
   </div>
 </section>
 
-<!-- BUTTON BACK TO HOME -->
+<!-- CONTACT SECTION -->
+<div class="contact">
+  <h2>Contact Me</h2>
+
+  <a href="https://www.instagram.com/banarasivlogger9300" class="instagram">📷 Instagram</a>
+  <a href="https://youtube.com/@banarasi_vlogger_9300" class="youtube">▶ YouTube Channel</a>
+  <a href="https://www.facebook.com/share/17PFHmfmkK/" class="facebook">📘 Facebook Page</a>
+  <a href="https://whatsapp.com/channel/0029Va9PQFrFBLSTQb5EAz3v" class="whatsapp">📢 WhatsApp Channel</a>
+</div>
+
+<!-- BACK HOME -->
 <div class="back-home">
-  <a href="index.html">⬅ Home Page पर वापस जाएं</a>
+  <a href="index.html">⬅ Home Page</a>
 </div>
 
 </body>
