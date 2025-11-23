@@ -1,36 +1,126 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8">
-<title>Banarasi Vlogger 9300 - Home</title>
-<meta name="description" content="Banarasi Vlogger 9300 – Banaras ki zindagi, ghat, culture, vlogs aur travel adventures.">
-<style>
-body{font-family:Arial;background:#f8f8f8;margin:0;padding:0}
-header{background:#ff3333;color:#fff;padding:20px;text-align:center;font-size:28px;font-weight:bold}
-nav{background:#222;padding:10px;text-align:center}
-nav a{color:#fff;margin:0 15px;text-decoration:none;font-size:18px}
-section{padding:20px;max-width:900px;margin:auto;background:#fff;margin-top:20px;border-radius:10px}
-footer{text-align:center;padding:15px;background:#111;color:white;margin-top:20px}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Videos – Banarasi Vlogger 9300</title>
+  <meta name="description" content="Banarasi Vlogger 9300 – Banaras ki travel videos, vlog playlist, YouTube shorts aur daily life content.">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    /* Playlist */
+    .playlist-container iframe {
+      width: 95%;
+      max-width: 900px;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    /* Shorts Grid */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 260px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    /* Navigation Link */
+    .back-home {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .back-home a {
+      text-decoration: none;
+      color: #fff;
+      background: #ff0000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+  </style>
 </head>
+
 <body>
 
-<header>Banarasi Vlogger 9300</header>
+<header>
+  Videos – Banarasi Vlogger 9300
+</header>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="videos.html">Videos</a>
-<a href="contact.html">Contact</a>
-</nav>
+<!-- PLAYLIST SECTION -->
+<section class="section">
+  <h2>My YouTube Playlist (Auto Play)</h2>
 
-<section>
-<h2>Welcome to Banarasi Vlogger 9300</h2>
-<p>आपका स्वागत है हमारे चैनल पर! यहां हम लेकर आते हैं रोमांचक यात्राओं और अनसुनी कहानियों की दुनिया।</p>
-<p>Banaras ki galiyon, ghat, mandir aur local culture ka asli experience.</p>
+  <div class="playlist-container">
+    <iframe 
+      src="https://www.youtube.com/embed/videoseries?list=PLW3G8LFhgPPri11SZfdVGAGjwhBifkQMI&autoplay=1&mute=1&loop=1"
+      allow="autoplay; encrypted-media">
+    </iframe>
+  </div>
 </section>
 
-<footer>© 2025 Banarasi Vlogger 9300</footer>
+<!-- SHORTS SECTION -->
+<section class="section">
+  <h2>Latest YouTube Shorts</h2>
+
+  <div class="video-grid">
+
+    <iframe 
+      src="https://www.youtube.com/embed/AyVR97OY8NQ?autoplay=1&mute=1&loop=1&playlist=AyVR97OY8NQ"
+      allow="autoplay">
+    </iframe>
+
+    <iframe 
+      src="https://www.youtube.com/embed/Ukzx68cuepk?autoplay=1&mute=1&loop=1&playlist=Ukzx68cuepk"
+      allow="autoplay">
+    </iframe>
+
+    <iframe 
+      src="https://www.youtube.com/embed/fxrjKMPIQQI?autoplay=1&mute=1&loop=1&playlist=fxrjKMPIQQI"
+      allow="autoplay">
+    </iframe>
+
+  </div>
+</section>
+
+<!-- BUTTON BACK TO HOME -->
+<div class="back-home">
+  <a href="index.html">⬅ Home Page पर वापस जाएं</a>
+</div>
 
 </body>
 </html>
